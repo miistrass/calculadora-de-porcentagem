@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de porcentagem</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Calculadora de porcentagem</h1>
+      <p class="page-subtitle">
+      Descubra a porcentagem de qualquer número!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      
+      <!-- Bloco onde queremos saber o porcentual de algum número -->
+      <label for="moeda">Quanto é</label><br>
+      <input type="number" id="porcento" size="10" /> <label>% de</label> <input type="number" id="numero" size="10" /> <label>?</label>
+      <br>
+      <button type="submit" onclick="Calcular()">Calcular</button>
+      
+      <h2 id="valorConvertido"></h2>   
+      
+       <!-- Bloco onde queremos saber o valor de uma porcentagem -->
+      <label>O valor</label>
+      <input type="number" id="valorPorcentagem" size="10" />
+      <label for="moeda">é qual porcentagem de </label> <input type="number" id="numPorcento" size="10" /> <label>?</label>
+      <br>
+      <button type="submit" onclick="calcularPorcentagem()">Calcular</button>
+      
+      <h2 id="valorResultado"></h2>
+      
+   </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
